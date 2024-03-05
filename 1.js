@@ -7,4 +7,9 @@
 который получаем от функции, в консоль.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function getCube(number) {
+  return number ** 3;
+}
+
+const result = getCube(+prompt('Введите число'));
+console.log(result);
