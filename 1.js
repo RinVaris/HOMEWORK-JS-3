@@ -11,5 +11,5 @@ function getCube(number) {
   return number ** 3;
 }
 
-const result = getCube(+prompt('Введите число'));
+const result = getCube(+prompt("Введите число"));
 console.log(result);
