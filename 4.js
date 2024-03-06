@@ -18,4 +18,34 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+//Сумма
+function findSum(number1, number2) {
+  return number1 + number2;
+}
+
+console.log(findSum(3, 5));
+
+// Разность
+function findDifference(number1, number2) {
+  if (number1 > number2) {
+    return number1 - number2;
+  } else {
+    return number2 - number1;
+  }
+}
+
+console.log(findDifference(3, 5));
+
+// Умножение
+function findMultip(number1, number2) {
+  return number1 * number2;
+}
+
+console.log(findMultip(3, 5));
+
+// Деление
+function findDivision(number1, number2) {
+  return number1 / number2;
+}
+
+console.log(findDivision(3, 5));
